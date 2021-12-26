@@ -1,7 +1,6 @@
 from mycroft import MycroftSkill, intent_handler
 import RPi.GPIO as GPIO
 
-GPIO.setmode(GPIO.BOARD)
 GPIO.setup(7,GPIO.OUT)
 
 class LedControle(MycroftSkill):
