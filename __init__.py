@@ -10,7 +10,7 @@ class LedControle(MycroftSkill):
         
 
     @intent_handler('led_skill.intent')
-    def handle_led_skill(self, message):
+    def handle_led_skille(self, message):
         self.speak_dialog('led_skill')
         GPIO.output(7,False)
 
